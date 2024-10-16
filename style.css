@@ -1,0 +1,50 @@
+body, h1, h2, p, div, section {
+    font-family: Garamond;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+}
+
+#accueil {
+    background-image: url("images/accueil.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#actualites {
+    background-image: url("images/actu.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body {
+    color: #efefef;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+h1, h2 {
+    font-weight: 500;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4.6em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#decouvrir {
+   color:#777 
+}
+
+#decouvrir p {
+    max-width: 700px;
+    text-align:justify;
+    margin:auto;
+}
